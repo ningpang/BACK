@@ -1,8 +1,23 @@
 # BACK: Few-shot text classiﬁcation by leveraging bi-directional attention and cross-class knowledge
+![Arch Diagram](back_arch.png)
 
-This is the implementation coder for [our paper](http://scis.scichina.com/en/2021/130103.pdf)
+This is the implementation coder for [our paper](http://scis.scichina.com/en/2021/130103.pdf) .
+
+## Dependency
+```
+pytorch
+numpy
+```
+
+## Data
+The benchmark datasets are the same as the baseline [ARR](https://arxiv.org/pdf/1908.06039.pdf), and can be found at [here](https://github.com/YujiaBao/Distributional-Signatures) .
+Mainly include Reuters, Huffpost and Fewrel.
+
+## Traning and Eval
+Set the hyper-parameter at the argparse in main.py and run it for training and evaluation.
+
 ## QA
-Please feel free to contact us if any questions. The email address is: pangning14@nudt.edu.cn
+Please feel free to contact us if any questions. The email address is: pangning14@nudt.edu.cn .
 
 ## Citation
 
